@@ -7,6 +7,7 @@ The dataset contains information on loan status, including whether a loan is hea
 The loan status variable includes two categories:
 
 •	Healthy Loan (0)
+
 •	High-Risk Loan (1)
 
 The machine learning process involved the following stages:
@@ -16,15 +17,22 @@ The machine learning process involved the following stages:
 
 ## Results
 •	Logistic Regression Model:
+
 •	Accuracy Score: 0.99
+
 •	Precision Score (Healthy Loan): 1.00
+
 •	Precision Score (High-Risk Loan): 0.85
+
 •	Recall Score (Healthy Loan): 0.99
+
 •	Recall Score (High-Risk Loan): 0.91
 
 ## Summary
 The logistic regression model performed exceptionally well in predicting credit risk based on the provided dataset. It achieved an accuracy score of 0.99, indicating near-perfect performance in classifying loans.
 The precision score for healthy loans was perfect (1.00), indicating that all loans predicted as healthy were indeed healthy. For high-risk loans, the precision score was 0.85, implying that 85% of loans predicted as high-risk were correctly identified.
+
 Similarly, the recall score for healthy loans was high at 0.99, indicating that the model correctly identified 99% of actual healthy loans. For high-risk loans, the recall score was 0.91, signifying that 91% of actual high-risk loans were correctly classified.
+
 Considering the high accuracy, precision, and recall scores, the logistic regression model is recommended for use by the peer-to-peer lending services company to assess the creditworthiness of potential borrowers. It effectively identifies both healthy and high-risk loans, making it a valuable tool for risk assessment in lending practices.
 
