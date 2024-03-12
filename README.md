@@ -2,7 +2,7 @@
 ## Overview of the Analysis
 
 The purpose of the analysis is to predict whether a loan is healthy or high-risk based on financial data. The aim is to develop a machine learning model to assess the credit risk of borrowers using historical lending data from a peer-to-peer lending services company. The purpose was to predict the creditworthiness of borrowers based on various financial indicators provided in the dataset.
-The dataset contains information on loan status, including whether a loan is healthy or high-risk. We needed to predict the loan status based on other features such as loan amount, interest rate, debt-to-income ratio, and employment length.
+The dataset contains information on loan status, including whether a loan is healthy or high-risk. We needed to predict the loan status based on other features such as loan amount, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, total debt, and loan status.
 
 The loan status variable includes two categories:
 
